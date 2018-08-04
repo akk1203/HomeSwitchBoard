@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/imageButton101"
+                android:src="@drawable/off_switch"/>
+
+            <ImageButton
+                android:id="@+id/imageButton102"
+                android:src="@drawable/off_switch"/>
+
+            <ImageButton
+                android:id="@+id/imageButton103"
+                android:src="@drawable/off_switch"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/imageButton104"
+                android:src="@drawable/off_switch"/>
+
+            <ImageButton
+                android:id="@+id/imageButton105"
+                android:src="@drawable/off_switch"/>
+
+            <ImageButton
+                android:id="@+id/imageButton106"
+                android:src="@drawable/off_switch"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
